@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Baby Shower</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+
+<body class="">
+    <audio src="https://www.youtube.com/watch?v=MedyeDHI53Q&ab_channel=SONGBOOK" autoplay loop id="playAudio"></audio>
+    <div class="container-fluid text-center">
+        <div class="row justify-content-center">
+            <div class="colm col-md-6 col-lg-4 py-5">
+                <div class="bloque p-4 rounded shadow">
+                    <header class="text-center my-4">
+                        <img id="pan" src="./img/banner.png" alt="" srcset="">
+                    </header>
+                    <section id="ruleta" class="text-center">
+                        <p class="mb-2 spectral-medium color ">
+                            ACOMPÁÑANOS EN ESTE DÍA<br>
+                            TAN ESPECIAL<br><br>
+
+                            ABRIL | <b style="font-size: 28px; font-weight: 400;"> 21 </b>| 2 P.M <br><br>
+
+                            CASETA VILLA HERMOSA<br><br>
+
+                            ¿QUÉ REGALO LLEVAR?
+                        </p>
+                        <div id="ruleta-contenedor" class="mb-2">
+                            <div id="ruleta-circulo" class="bg-info rounded-circle d-inline-block p-4"></div>
+                        </div>
+                        <div class="p-2 rounded mb-3 mx-5" style="background-color: #e8ddff;">
+                            <p id="resultado" class="spectral-medium color m-0"></p>
+                        </div>
+                        <button id="ruleta-boton" class="btn btn-primary spectral-medium">¡Girar!</button>
+                        
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
